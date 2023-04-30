@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #111011;
+}
+
+/* Navbar */
+.navbar{
+  margin: 2% 4%;
+  background-color: #111011 !important;
+  color: #f5f5f5 !important;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f5f5f5 !important;
+}
+
+.nav-link{
+  font-size: 1.25rem;
+  color: #f5f5f5 !important;
+  margin: 0 5%;
+}
+
+/* Homepage  */
+
+.main{
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+}
+
+.animation{
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.myinfo{
+  margin: 5% 5%;
+  color: #f5f5f5;
+}
+
+.myname{
+  font-size: 5rem;
+}
+
+.socials{
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+/* About page */
+.titlen{
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+.info{
+  text-align: center;
+  color: #f5f5f5;
+  padding: 3% 15%;
+}
+
+hr{
+  background-color: #f5f5f5;
+  margin: 3% 17.5%;
+}
+
+.aboutx{
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.aboutx>a{
+  text-decoration: none;
+}
+
+.btnresume{
+  padding: 0.75%;
+  background-color: #111011;
+  border: none;
+  border-bottom: 3px solid #f5f5f5;
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+.col-md-6{
+  color: #f5f5f5;
+  text-align: center;
+  margin: 1.5% 0;
+}
+
+.skills{
+  margin: 5% 0;
+}
+
+.pro{
+  color: #f5f5f5;
+  border: 1px solid black;
+  padding: 6% 5%;
+  margin: 5% 0;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.linktoview{
+  text-decoration: none;
+  color: #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.linktoview:hover{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.link{
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+/* skills */
+.python{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #563BC1;
+  width: 85%;
+  padding: 2%;
+  border-radius:10px;
+}
+
+.js{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #CBA229;
+  width: 70%;
+  padding: 2%;
+  border-radius:10px; 
+}
+
+.rjs{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #563BC1;
+  width: 40%;
+  padding: 2%;
+  border-radius:10px;
+}
+
+.sql{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #C44467;
+  width: 65%;
+  padding: 2%;
+  border-radius:10px;
+}
+
+.php{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #3052CB;
+  width: 40%;
+  padding: 2%;
+  border-radius:10px;
+}
+
+.web{
+  text-align: left;
+  padding-left: 3%;
+  background-color: #563BC1;
+  width: 90%;
+  padding: 1.25% 2%;
+  border-radius:10px;
+}
+
+.live{
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .myname{
+    text-align: center;
+  }
+  .nav-link{
+    text-align: center;
+  }
+}
